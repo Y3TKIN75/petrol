@@ -1,0 +1,607 @@
+{
+ "label": "v2_kalibrasyonlu",
+ "split": "test",
+ "calibration": "arastirma\\backtest\\kalibrasyon_aday.md",
+ "run_at": "2026-10-03T14:57:03",
+ "model": "openai/gpt-oss-120b",
+ "reasoning": "medium",
+ "summary": {
+  "filtreden_gecen": "10/11",
+  "yon_dogru": "10/10",
+  "guclu_olay_en_az_sari": "3/7",
+  "guclu_olay_kirmizi": "0/7",
+  "ortalama_skor": {
+   "strong": 38.8,
+   "medium": 37.7,
+   "weak": 54.0
+  },
+  "kontrol_yanlis_alarm": "0/10",
+  "fiyat_basligi_tespiti": "2/2"
+ },
+ "cases": [
+  {
+   "id": "H1",
+   "split": "test",
+   "expected": "asagi",
+   "strength": "strong",
+   "headline": "China asks Iran to limit Houthi attacks on Saudi oil facilities",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 3,
+     "effective": 3
+    }
+   ],
+   "importance": 3,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "risk_primi",
+    "olay_turu": "politik_beyan",
+    "yon": "asagi",
+    "buyukluk": "dusuk",
+    "sure": "saatler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [
+     2,
+     6,
+     7,
+     8
+    ],
+    "guven": 55,
+    "gerekce": "Çin'in İran'a Husi saldırılarını sınırlaması talebi, bölgedeki risk primini azaltabilir; ancak İran'ın bu talebi yerine getirip getirmeyeceği belirsiz olduğundan fiyatlar hafif düşüş yönünde (Brent/WTI) hareket edebilir ve etkisi saatler içinde açılışta yansıyabilir.",
+    "anahtar_aktorler": [
+     "Çin",
+     "İran",
+     "Husi",
+     "Suudi Arabistan",
+     "ABD"
+    ]
+   },
+   "score": 22,
+   "level": "digest",
+   "direction_ok": true
+  },
+  {
+   "id": "H3",
+   "split": "test",
+   "expected": "asagi",
+   "strength": "strong",
+   "headline": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "risk_primi",
+    "olay_turu": "jeopolitik",
+    "yon": "asagi",
+    "buyukluk": "dusuk",
+    "sure": "gunler",
+    "kesinlik": "sartli_beyan",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "guven": 45,
+    "gerekce": "İran'ın, ABD askeri baskısını hafifletmesi koşuluyla Hormuz Boğazı'nı 7 gün içinde yeniden açabileceği yönündeki açıklaması, bölgedeki tedarik riskini azaltma potansiyeli taşıyor. Ancak bu koşulun gerçekleşme olasılığı belirsiz ve ABD'nin baskıyını azaltma niyeti net değil, bu yüzden fiyatlarda sadece %1'in altında bir düşüş bekleniyor. Piyasa bu haberi açıkta işlem gören Brent ve WTI sözleşmelerinde birkaç gün içinde hafif bir aşağı yönlü hareket olarak fiyatlayabilir.",
+    "anahtar_aktorler": [
+     "İran",
+     "ABD",
+     "Hürmüz Boğazı",
+     "Suudi Arabistan",
+     "OPEC"
+    ]
+   },
+   "score": 16,
+   "level": "digest",
+   "direction_ok": true
+  },
+  {
+   "id": "H4",
+   "split": "test",
+   "expected": "yukari",
+   "strength": "strong",
+   "headline": "Iran's president vows to never surrender",
+   "triage": [
+    {
+     "relevant": false,
+     "price_report": false,
+     "importance": 1,
+     "effective": 1
+    }
+   ],
+   "importance": 0,
+   "passed": false
+  },
+  {
+   "id": "H5",
+   "split": "test",
+   "expected": "yukari",
+   "strength": "strong",
+   "headline": "Houthis say they attacked Riyadh and Aramco facilities in Yanbu",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    },
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 3,
+     "effective": 3
+    },
+    {
+     "relevant": false,
+     "price_report": false,
+     "importance": 1,
+     "effective": 1
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "arz",
+    "olay_turu": "yaptirim",
+    "yon": "yukari",
+    "buyukluk": "orta",
+    "sure": "gunler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "guclu",
+    "ilgili_olaylar": [
+     3,
+     4,
+     6,
+     8
+    ],
+    "guven": 65,
+    "gerekce": "Houthis'in Riyad ve Yanbu'daki Aramco tesislerine yönelik füze ve drone saldırısı, bölgedeki petrol üretim ve ihracat kapasitesinde anlık bir kesintiye yol açma ihtimalini artırıyor; bu da arz risk primini yükselterek Brent fiyatlarını yukarı yönlendirebilir. Ancak saldırıların gerçek etkisi, tesislerdeki hasarın boyutu ve üretim kaybının kesinleşmesi henüz doğrulanmadığı için belirsizlik sürüyor ve fiyat hareketi ilk açılışta sınırlı kalabilir.",
+    "anahtar_aktorler": [
+     "Houthis",
+     "Suudi Arabistan",
+     "Aramco",
+     "Yanbu",
+     "ABD koalisyonu"
+    ]
+   },
+   "score": 58,
+   "level": "yellow",
+   "direction_ok": true
+  },
+  {
+   "id": "H6",
+   "split": "test",
+   "expected": "asagi",
+   "strength": "medium",
+   "headline": "US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "risk_primi",
+    "olay_turu": "politik_beyan",
+    "yon": "asagi",
+    "buyukluk": "orta",
+    "sure": "gunler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [],
+    "guven": 55,
+    "gerekce": "ABD ve İran arasındaki görüşmelerin Hürmüz Boğazı'nı kademeli olarak yeniden açma ve ABD abluka politikasını sona erdirme yönünde ilerlemesi, bölgesel jeopolitik risk primini azaltarak arz güvenliğini artırır. Ancak anlaşmanın henüz kesinleşmemiş olması ve mevcut gerilimlerin devam etmesi belirsizliği korur. Piyasa bu gelişmeyi fiyatların bir kaç gün içinde hafif düşüş olarak fiyatlayabilir.",
+    "anahtar_aktorler": [
+     "ABD",
+     "İran",
+     "Hürmüz Boğazı",
+     "Suudi Arabistan"
+    ]
+   },
+   "score": 35,
+   "level": "digest",
+   "direction_ok": true
+  },
+  {
+   "id": "H8",
+   "split": "test",
+   "expected": "yukari",
+   "strength": "strong",
+   "headline": "Trump rejects Iranian peace proposal, WSJ reports",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "risk_primi",
+    "olay_turu": "politik_beyan",
+    "yon": "yukari",
+    "buyukluk": "orta",
+    "sure": "gunler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [],
+    "guven": 55,
+    "gerekce": "Trump'ın İran barış teklifini reddetmesi, ABD'nin baskıyı hafifletmeyecek sinyalini verir ve Hormuz Boğazı'nın yeniden açılması ihtimalini azaltır. Bu durum jeopolitik risk primini yükselterek Brent ve WTI fiyatlarını yükseltebilir. Ancak Trump'ın resmi bir yetkisi olmadığı ve ABD'nin resmi tutumu hâlâ belirsiz olduğu için etki sınırlı kalabilir.",
+    "anahtar_aktorler": [
+     "Donald Trump",
+     "İran",
+     "ABD"
+    ]
+   },
+   "score": 35,
+   "level": "digest",
+   "direction_ok": true
+  },
+  {
+   "id": "H9",
+   "split": "test",
+   "expected": "asagi",
+   "strength": "strong",
+   "headline": "Saudi Arabia’s Crucial Oil Pipeline Starts Exports After Repairs",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    },
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 3,
+     "effective": 3
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "arz",
+    "olay_turu": "arz_artisi",
+    "yon": "asagi",
+    "buyukluk": "orta",
+    "sure": "saatler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "guclu",
+    "ilgili_olaylar": [],
+    "guven": 70,
+    "gerekce": "Doğu-Batı borusunun onarımdan sonra yeniden çalışmaya başlaması, günde yaklaşık 5 milyon varil ek arz sağlayarak mevcut sıkı fiziksel piyasada arz fazlası yaratacak. Bu durum, önceki boru kesintisi nedeniyle yükselen fiyatları geriye doğru iterek Brent ve WTI vadeli işlemlerinde düşüşe yol açar. Piyasa, ABD enerji bakanının birkaç gün içinde yeniden açılacağını öngörmesiyle bu gelişmeyi büyük ölçüde fiyatların aşağı yönlü düzeltmesi olarak fiyatlayacak.",
+    "anahtar_aktorler": [
+     "Suudi Arabistan",
+     "Suudi Aramco",
+     "Doğu-Batı Borusu"
+    ]
+   },
+   "score": 57,
+   "level": "yellow",
+   "direction_ok": true
+  },
+  {
+   "id": "H11",
+   "split": "test",
+   "expected": "asagi",
+   "strength": "weak",
+   "headline": "US to Release 40 Million Barrels of Crude From Strategic Petroleum Reserve, Energy Department Says",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    },
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "arz",
+    "olay_turu": "rezerv_salimi",
+    "yon": "asagi",
+    "buyukluk": "orta",
+    "sure": "gunler",
+    "kesinlik": "resmi_aciklama",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [],
+    "guven": 65,
+    "gerekce": "ABD Enerji Bakanlığı, Stratejik Petrol Rezervi'nden 40 milyon varil ham petrolün piyasaya sürüleceğini duyurdu. Bu ek arz, mevcut sıkı fiziksel piyasada bir miktar arz fazlası yaratıp fiyatları %1‑%3 arasında aşağı yönlü hareket ettirebilir; ancak bölgedeki savaş ve risk primi hâlâ yüksek olduğundan etki sınırlı kalır ve etkisi birkaç gün içinde sönümlenir.",
+    "anahtar_aktorler": [
+     "United States",
+     "US Department of Energy",
+     "Strategic Petroleum Reserve"
+    ]
+   },
+   "score": 54,
+   "level": "yellow",
+   "direction_ok": true
+  },
+  {
+   "id": "H12",
+   "split": "test",
+   "expected": "yukari",
+   "strength": "strong",
+   "headline": "U.S. to send third carrier group to Mideast as Trump warns of new Iran strikes",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "risk_primi",
+    "olay_turu": "politik_beyan",
+    "yon": "yukari",
+    "buyukluk": "yuksek",
+    "sure": "gunler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": true,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [
+     1,
+     4,
+     8
+    ],
+    "guven": 55,
+    "gerekce": "Trump'ın üçüncü taşıyıcı grubunu Orta Doğu'ya gönderme kararı ve İran'a yeni saldırı uyarısı, bölgedeki jeopolitik risk primini artırır. Bu durum arzda fiziksel bir kesinti olmamasına rağmen, piyasa belirsizliğini yükselterek Brent ve WTI fiyatlarını yukarı yönlendirir; etkisi birkaç gün sürebilir.",
+    "anahtar_aktorler": [
+     "United States",
+     "Iran",
+     "Donald Trump"
+    ]
+   },
+   "score": 45,
+   "level": "yellow",
+   "direction_ok": true
+  },
+  {
+   "id": "H13",
+   "split": "test",
+   "expected": "yukari",
+   "strength": "medium",
+   "headline": "China Halts October Fuel Exports as Global Diesel Crunch Deepens",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 3,
+     "effective": 3
+    }
+   ],
+   "importance": 3,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "talep",
+    "olay_turu": "politik_beyan",
+    "yon": "yukari",
+    "buyukluk": "dusuk",
+    "sure": "gunler",
+    "kesinlik": "iddia",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "zayif",
+    "ilgili_olaylar": [
+     1,
+     7,
+     8
+    ],
+    "guven": 55,
+    "gerekce": "Çin'in ekim ayı yakıt ihracatını durdurması, küresel dizel arzını daraltarak ürün fiyatlarını yükseltir ve rafinerilerin ham petrol talebini artırır; bu da Brent ve WTI fiyatlarını hafifçe yukarı yönlendirir. Ancak bu gelişme doğrudan ham petrol arzını etkilemediği için etkisi sınırlı ve birkaç gün içinde fiyatlarda küçük bir artış beklenir.",
+    "anahtar_aktorler": [
+     "Çin",
+     "Çin Enerji Bakanlığı",
+     "Rafineriler",
+     "Dünya dizel piyasası"
+    ]
+   },
+   "score": 22,
+   "level": "digest",
+   "direction_ok": true
+  },
+  {
+   "id": "H14",
+   "split": "test",
+   "expected": "asagi",
+   "strength": "medium",
+   "headline": "G7 countries agree on release of diesel and oil stocks after US pressure",
+   "triage": [
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    },
+    {
+     "relevant": true,
+     "price_report": false,
+     "importance": 4,
+     "effective": 4
+    }
+   ],
+   "importance": 4,
+   "passed": true,
+   "analysis": {
+    "etki_kanali": "arz",
+    "olay_turu": "rezerv_salimi",
+    "yon": "asagi",
+    "buyukluk": "orta",
+    "sure": "gunler",
+    "kesinlik": "resmi_aciklama",
+    "yenilik": "yeni",
+    "lider_beyani": false,
+    "baglam_destegi": "guclu",
+    "ilgili_olaylar": [
+     3
+    ],
+    "guven": 65,
+    "gerekce": "G7’in 100 milyon varil petrol ve dizel rezervlerini serbest bırakma kararı arzı artırarak Brent ve WTI fiyatlarını aşağı yönlü baskılayacak; özellikle mevcut tedarik sıkıntıları ve önceki ABD’nin 40 milyon varil salımı göz önüne alındığında bu ek likidite fiyatları %1‑3 oranında düşürebilir. Etki, piyasaların açık olduğu ilk günlerde hissedilecek ve birkaç gün sürebilir.",
+    "anahtar_aktorler": [
+     "G7",
+     "ABD",
+     "Stratejik Petrol Rezervleri",
+     "Enerji Bakanlığı",
+     "Petrol Üreticileri"
+    ]
+   },
+   "score": 56,
+   "level": "yellow",
+   "direction_ok": true
+  }
+ ],
+ "controls": [
+  {
+   "title": "Tesla Jumps 4% as Oil Climbs to $86: Is the Gas-Price Trade Back?",
+   "expect": "irrelevant_or_price",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Autonomous trucks in Saudi Arabia: HUMAIN",
+   "expect": "irrelevant",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Saudi Arabia Returns to Markets With Dollar-Bond Offering",
+   "expect": "irrelevant",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Chicago drivers seek to find cheapest gas prices at stations as costs rising ahead of Labor Day 2026 amid US-Iran war",
+   "expect": "irrelevant",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Heating oil costs surge, leaving rural customers scrambling",
+   "expect": "irrelevant",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Athletics' Brent Rooker: Starts up hitting progression",
+   "expect": "irrelevant",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Is the U.S.-Saudi Nuclear Deal Moving From the Gold Standard to a Gilded Standard?",
+   "expect": "irrelevant",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Jim Cramer talks how higher crude oil prices are impacting the market",
+   "expect": "irrelevant_or_price",
+   "triage": {
+    "relevant": false,
+    "price_report": false,
+    "importance": 1,
+    "effective": 1
+   },
+   "passed": false
+  },
+  {
+   "title": "Oil surges 6%, Brent and US crude both surpass $100 on more tanker attacks",
+   "expect": "price_report",
+   "triage": {
+    "relevant": true,
+    "price_report": true,
+    "importance": 4,
+    "effective": 2
+   },
+   "passed": false
+  },
+  {
+   "title": "Oil prices fall after G7 agrees to reserve release",
+   "expect": "price_report",
+   "triage": {
+    "relevant": true,
+    "price_report": true,
+    "importance": 4,
+    "effective": 2
+   },
+   "passed": false
+  }
+ ]
+}

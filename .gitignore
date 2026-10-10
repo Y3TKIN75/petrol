@@ -1,0 +1,9 @@
+.env
+groq_api_key.txt
+.venv/
+__pycache__/
+.pytest_cache/
+.claude/
+*.db
+*.db-wal
+*.db-shm

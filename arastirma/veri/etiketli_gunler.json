@@ -1,0 +1,1419 @@
+{
+ "kategori_tanimlari": {
+  "SAVAS": "Askeri tirmanma: yeni saldiri dalgasi, savas baslangici, ateskesin cokmesi",
+  "ALTYAPI": "Enerji altyapisina saldiri/kesinti: tesis, rafineri, uretim kesintisi, mucbir sebep",
+  "SEVKIYAT": "Bogaz/rota kapanmasi, abluka, tanker saldirisi veya el koyma",
+  "TOPARLANMA": "Arzin geri donmesi: bogaz acilmasi, gecislerin baslamasi, terminalin yeniden acilmasi",
+  "DIPLOMASI_ILERI": "Gorusme karari, ilerleme, ateskes, anlasma, saldirilarin durdurulmasi",
+  "DIPLOMASI_CIKMAZ": "Gorusmelerin cokmesi, teklifin reddi, yalanlama, kirilganlik, katı sartlar",
+  "LIDER_TEHDIT": "Liderin somut tehdidi/ultimatomu (bombalama, abluka, teslimiyet talebi)",
+  "LIDER_IYIMSER": "Liderin 'savas bitiyor / anlasma yakin' beyani"
+ },
+ "sessiz_neden_tanimlari": {
+  "DENGELEYICI": "Ayni gun zit yonlu haberler (or. saldiri + anlasma raporu)",
+  "FIYATLANMIS": "Buyuk hareketten sonraki gun; haber zaten fiyatta",
+  "TEKRAR": "Tekrarlanan tehdit/saldiri/iddia; piyasa alismis",
+  "GUN_ICI_SONUM": "Gun icinde sert tepki, kapanisa kadar sondu",
+  "KARSI_VERI": "Resmi akis/stok verisi saldiri haberini dengeledi",
+  "GECIKMELI": "Tepki ertesi gun geldi",
+  "BEKLEME": "Kritik olay oncesi bekleme (gorusme tarihi vb.)"
+ },
+ "buyuk": [
+  {
+   "gun": "2026-02-02",
+   "haftanin_gunu": "Mon",
+   "brent_pct": -6.21,
+   "wti_pct": -4.71,
+   "tutarsiz": false,
+   "hareket_pct": -5.46,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "Trump Iran'in 'ciddi sekilde gorustugunu' soyledi; gorusmeler planlandi"
+  },
+  {
+   "gun": "2026-02-04",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 3.16,
+   "wti_pct": 3.05,
+   "tutarsiz": false,
+   "hareket_pct": 3.1,
+   "kategori": "LIDER_TEHDIT",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: Iran lideri 'cok endiselenmeli'; ABD Iran IHA'sini dusurdu (gorusme kararina ragmen)"
+  },
+  {
+   "gun": "2026-02-18",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 4.35,
+   "wti_pct": 4.59,
+   "tutarsiz": false,
+   "hareket_pct": 4.47,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "LIDER_TEHDIT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Vance: Iran temel talepleri gormezden geldi, askeri secenek masada"
+  },
+  {
+   "gun": "2026-03-02",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 7.26,
+   "wti_pct": 6.28,
+   "tutarsiz": false,
+   "hareket_pct": 6.77,
+   "kategori": "SAVAS",
+   "ikincil": [
+    "ALTYAPI"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "ABD-Israil'in Iran'a saldirisi, bolgesel savas; Suudi en buyuk rafineri durdu; Katar LNG durdu"
+  },
+  {
+   "gun": "2026-03-03",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 4.71,
+   "wti_pct": 4.67,
+   "tutarsiz": false,
+   "hareket_pct": 4.69,
+   "kategori": "SEVKIYAT",
+   "ikincil": [
+    "ALTYAPI"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran Hurmuz'u kapatti; Korfez'de tesisler kapandi"
+  },
+  {
+   "gun": "2026-03-05",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 4.93,
+   "wti_pct": 8.51,
+   "tutarsiz": true,
+   "hareket_pct": 8.51,
+   "kategori": "SAVAS",
+   "ikincil": [
+    "SEVKIYAT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Savas genisliyor; Iran kara harekatina karsi tehdit; Korfez depolari doluyor"
+  },
+  {
+   "gun": "2026-03-06",
+   "haftanin_gunu": "Fri",
+   "brent_pct": 8.52,
+   "wti_pct": 12.21,
+   "tutarsiz": true,
+   "hareket_pct": 12.21,
+   "kategori": "LIDER_TEHDIT",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: 'kosulsuz teslimiyet disinda anlasma yok' (Rus petrolu yaptirim gevsemesi etkisiz)"
+  },
+  {
+   "gun": "2026-03-09",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 6.76,
+   "wti_pct": 4.26,
+   "tutarsiz": false,
+   "hareket_pct": 5.51,
+   "kategori": "SEVKIYAT",
+   "ikincil": [
+    "ALTYAPI"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "Hurmuz trafigi coktu, Suudi uretim kesti; gun icinde Trump'in 'bitecek' imasiyla geri dondu"
+  },
+  {
+   "gun": "2026-03-10",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -11.28,
+   "wti_pct": -11.94,
+   "tutarsiz": false,
+   "hareket_pct": -11.61,
+   "kategori": "LIDER_IYIMSER",
+   "ikincil": [
+    "DIPLOMASI_ILERI"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: savas 'buyuk olcude tamamlandi', 'cok yakinda' biter; IEA rekor stok salimi plani"
+  },
+  {
+   "gun": "2026-03-11",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 4.76,
+   "wti_pct": 4.55,
+   "tutarsiz": false,
+   "hareket_pct": 4.65,
+   "kategori": "SAVAS",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran Korfez'de ekonomik hedefleri vurdu; IEA salim plani ve Trump'in 'yakinda biter' tekrari etkisiz"
+  },
+  {
+   "gun": "2026-03-12",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 9.22,
+   "wti_pct": 9.72,
+   "tutarsiz": false,
+   "hareket_pct": 9.47,
+   "kategori": "SEVKIYAT",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran: Hurmuz kapali kalacak; Irak tankerlerine saldiri; SPR salimi etkisiz"
+  },
+  {
+   "gun": "2026-03-13",
+   "haftanin_gunu": "Fri",
+   "brent_pct": 2.67,
+   "wti_pct": 3.11,
+   "tutarsiz": false,
+   "hareket_pct": 2.89,
+   "kategori": "ALTYAPI",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Suudi uretimi %20 kesildi; ABD Iran adasini bombaladi; Rus yaptirim muafiyeti etkisiz"
+  },
+  {
+   "gun": "2026-03-16",
+   "haftanin_gunu": "Mon",
+   "brent_pct": -2.84,
+   "wti_pct": -5.28,
+   "tutarsiz": false,
+   "hareket_pct": -4.06,
+   "kategori": "TOPARLANMA",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "Bazi gemiler Hurmuz'den gecti"
+  },
+  {
+   "gun": "2026-03-17",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 3.2,
+   "wti_pct": 2.9,
+   "tutarsiz": false,
+   "hareket_pct": 3.05,
+   "kategori": "SAVAS",
+   "ikincil": [
+    "LIDER_TEHDIT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran BAE'ye yeniden saldirdi, Korfez tesislerini tehdit etti, Hurmuz'u kalici kapatma yemini"
+  },
+  {
+   "gun": "2026-03-18",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 3.83,
+   "wti_pct": 0.11,
+   "tutarsiz": true,
+   "hareket_pct": 0.11,
+   "kategori": "ALTYAPI",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Israil Guney Pars'i vurdu; Iran Korfez enerji tesislerine saldirdi (Brent-WTI gercek ayrisma)"
+  },
+  {
+   "gun": "2026-03-20",
+   "haftanin_gunu": "Fri",
+   "brent_pct": 3.26,
+   "wti_pct": 2.27,
+   "tutarsiz": false,
+   "hareket_pct": 2.76,
+   "kategori": "ALTYAPI",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Irak mucbir sebep; enerji tesisleri hedefte; ek ABD askeri (yaptirim muafiyeti etkisiz)"
+  },
+  {
+   "gun": "2026-03-23",
+   "haftanin_gunu": "Mon",
+   "brent_pct": -10.92,
+   "wti_pct": -10.36,
+   "tutarsiz": false,
+   "hareket_pct": -10.64,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "Trump enerji altyapisina saldiriyi 5 gun erteledi, gorusme iddia etti (Iran yalanladi)"
+  },
+  {
+   "gun": "2026-03-24",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 4.55,
+   "wti_pct": 4.79,
+   "tutarsiz": false,
+   "hareket_pct": 4.67,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran gorusme iddiasini yalanladi; onceki gunun dususunun bir kismi geri alindi"
+  },
+  {
+   "gun": "2026-03-26",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 5.66,
+   "wti_pct": 4.61,
+   "tutarsiz": false,
+   "hareket_pct": 5.13,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "LIDER_TEHDIT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran gorusmeleri yalanladi, Hurmuz gecis ucreti; Beyaz Saray 'cehennem' tehdidi"
+  },
+  {
+   "gun": "2026-03-27",
+   "haftanin_gunu": "Fri",
+   "brent_pct": 4.22,
+   "wti_pct": 5.46,
+   "tutarsiz": false,
+   "hareket_pct": 4.84,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran ateskesi reddetti; Rubio yeni endise"
+  },
+  {
+   "gun": "2026-03-30",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 0.19,
+   "wti_pct": 3.25,
+   "tutarsiz": true,
+   "hareket_pct": 3.25,
+   "kategori": "LIDER_TEHDIT",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "Trump Iran enerji varliklarini havaya ucurmakla tehdit etti; Iran Israil rafinerisini vurdu"
+  },
+  {
+   "gun": "2026-03-31",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 4.94,
+   "wti_pct": -1.46,
+   "tutarsiz": true,
+   "hareket_pct": -1.46,
+   "kategori": "LIDER_IYIMSER",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump savasin 2-3 haftada bitebilecegini soyledi (Brent vade kalintisi)"
+  },
+  {
+   "gun": "2026-04-01",
+   "haftanin_gunu": "Wed",
+   "brent_pct": -14.52,
+   "wti_pct": -1.24,
+   "tutarsiz": true,
+   "hareket_pct": -1.24,
+   "kategori": "LIDER_IYIMSER",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "tekrar",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump 'savas 2-3 haftada biter' (Brent -%14.5 vade kalintisi, WTI -%1.2)"
+  },
+  {
+   "gun": "2026-04-02",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 7.78,
+   "wti_pct": 11.41,
+   "tutarsiz": true,
+   "hareket_pct": 11.41,
+   "kategori": "LIDER_TEHDIT",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump ulusa seslenis: Iran'i 2-3 hafta 'cok sert' vuracagiz; sivil altyapi bombalandi"
+  },
+  {
+   "gun": "2026-04-08",
+   "haftanin_gunu": "Wed",
+   "brent_pct": -13.29,
+   "wti_pct": -16.41,
+   "tutarsiz": true,
+   "hareket_pct": -16.41,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump iki haftalik ateskes ilan etti"
+  },
+  {
+   "gun": "2026-04-09",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 1.23,
+   "wti_pct": 3.66,
+   "tutarsiz": false,
+   "hareket_pct": 2.45,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "ALTYAPI"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Ateskes kirilgan; Hurmuz acik degil (ADNOC); Suudi boru hatti vuruldu"
+  },
+  {
+   "gun": "2026-04-13",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 4.37,
+   "wti_pct": 2.6,
+   "tutarsiz": false,
+   "hareket_pct": 3.49,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "SEVKIYAT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "Islamabad gorusmeleri basarisiz; ABD Iran limanlarina abluka"
+  },
+  {
+   "gun": "2026-04-14",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -4.6,
+   "wti_pct": -7.87,
+   "tutarsiz": true,
+   "hareket_pct": -7.87,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Yeni gorusme umutlari; Trump 'savas bitmeye cok yakin'"
+  },
+  {
+   "gun": "2026-04-16",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 4.7,
+   "wti_pct": 3.72,
+   "tutarsiz": false,
+   "hareket_pct": 4.21,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Gorusmelerin Hurmuz'u acacagina suphe; Kongre geri cekilmeyi reddetti"
+  },
+  {
+   "gun": "2026-04-17",
+   "haftanin_gunu": "Fri",
+   "brent_pct": -9.07,
+   "wti_pct": -11.45,
+   "tutarsiz": false,
+   "hareket_pct": -10.26,
+   "kategori": "TOPARLANMA",
+   "ikincil": [
+    "DIPLOMASI_ILERI"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran Disisleri: Hurmuz acik; Trump 'anlasma 1-2 gun icinde'"
+  },
+  {
+   "gun": "2026-04-20",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 5.64,
+   "wti_pct": 6.87,
+   "tutarsiz": false,
+   "hareket_pct": 6.25,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "SEVKIYAT",
+    "LIDER_TEHDIT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "ABD Iran gemisine el koydu; Tahran 2. tur gorusmeyi reddetti; Trump 'bombalar patlar'"
+  },
+  {
+   "gun": "2026-04-21",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 3.14,
+   "wti_pct": 2.81,
+   "tutarsiz": false,
+   "hareket_pct": 2.98,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Ateskes uzatildi ama gorusmeler askida"
+  },
+  {
+   "gun": "2026-04-22",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 3.48,
+   "wti_pct": 0.9,
+   "tutarsiz": false,
+   "hareket_pct": 2.19,
+   "kategori": "SEVKIYAT",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran Hurmuz'de 2 gemiye el koydu; konteyner gemilerine ates"
+  },
+  {
+   "gun": "2026-04-23",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 3.1,
+   "wti_pct": 3.11,
+   "tutarsiz": false,
+   "hareket_pct": 3.1,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "SEVKIYAT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Ateskeste catlaklar; Iran bas muzakerecisi istifa etti; mayin botlarini vurma emri"
+  },
+  {
+   "gun": "2026-04-28",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 2.8,
+   "wti_pct": 3.69,
+   "tutarsiz": false,
+   "hareket_pct": 3.25,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump'in Iran baris planini reddedecegi haberleri (BAE'nin OPEC'ten cikisi etkisiz)"
+  },
+  {
+   "gun": "2026-04-29",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 6.08,
+   "wti_pct": 6.95,
+   "tutarsiz": false,
+   "hareket_pct": 6.52,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "LIDER_TEHDIT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump Iran teklifini reddetti; abluka uzatma, askeri secenekler"
+  },
+  {
+   "gun": "2026-04-30",
+   "haftanin_gunu": "Thu",
+   "brent_pct": -3.41,
+   "wti_pct": -1.69,
+   "tutarsiz": false,
+   "hareket_pct": -2.55,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran guncellenmis baris teklifini arabulucuya gonderdi"
+  },
+  {
+   "gun": "2026-05-01",
+   "haftanin_gunu": "Fri",
+   "brent_pct": -5.12,
+   "wti_pct": -2.98,
+   "tutarsiz": false,
+   "hareket_pct": -4.05,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran yeni teklif sundu (Trump 'memnun degilim')"
+  },
+  {
+   "gun": "2026-05-04",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 5.8,
+   "wti_pct": 4.39,
+   "tutarsiz": false,
+   "hareket_pct": 5.09,
+   "kategori": "ALTYAPI",
+   "ikincil": [
+    "SEVKIYAT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "Iran BAE'nin Fujairah limanini vurdu, Hurmuz'de gemilere saldirdi"
+  },
+  {
+   "gun": "2026-05-05",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -3.99,
+   "wti_pct": -3.9,
+   "tutarsiz": false,
+   "hareket_pct": -3.95,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "TOPARLANMA"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "ABD-Iran anlasmaya yakin; Trump Project Freedom'i durdurdu; 2 gemi gecti"
+  },
+  {
+   "gun": "2026-05-06",
+   "haftanin_gunu": "Wed",
+   "brent_pct": -7.83,
+   "wti_pct": -7.03,
+   "tutarsiz": false,
+   "hareket_pct": -7.43,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "ABD ve Iran'in anlasmaya yaklastigi raporlari"
+  },
+  {
+   "gun": "2026-05-12",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 3.42,
+   "wti_pct": 4.19,
+   "tutarsiz": false,
+   "hareket_pct": 3.81,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: ateskes 'yasam desteginde'; baris umutlari sondu"
+  },
+  {
+   "gun": "2026-05-15",
+   "haftanin_gunu": "Fri",
+   "brent_pct": 3.35,
+   "wti_pct": 4.2,
+   "tutarsiz": false,
+   "hareket_pct": 3.78,
+   "kategori": "LIDER_TEHDIT",
+   "ikincil": [
+    "DIPLOMASI_CIKMAZ"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump 'Iran'a sabrim tukeniyor'; Iran 'Amerikalilara guvenemeyiz'"
+  },
+  {
+   "gun": "2026-05-18",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 2.6,
+   "wti_pct": 3.07,
+   "tutarsiz": false,
+   "hareket_pct": 2.83,
+   "kategori": "LIDER_TEHDIT",
+   "ikincil": [
+    "ALTYAPI"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "Trump 'saat isliyor'; BAE nukleer santrali vuruldu (sonra planli saldiri iptal)"
+  },
+  {
+   "gun": "2026-05-20",
+   "haftanin_gunu": "Wed",
+   "brent_pct": -5.63,
+   "wti_pct": -8.82,
+   "tutarsiz": true,
+   "hareket_pct": -8.82,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: gorusmeler 'son asamada'; baris taslagi raporlari"
+  },
+  {
+   "gun": "2026-05-26",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -3.82,
+   "wti_pct": -2.81,
+   "tutarsiz": false,
+   "hareket_pct": -3.31,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: gorusmeler iyi ilerliyor (yeni ABD saldirilarina ragmen)"
+  },
+  {
+   "gun": "2026-05-27",
+   "haftanin_gunu": "Wed",
+   "brent_pct": -5.31,
+   "wti_pct": -5.55,
+   "tutarsiz": false,
+   "hareket_pct": -5.43,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Rubio: gorusmelere 'her sans'; Iran devlet medyasi: Hurmuz bir ayda acilir (saldirilara ragmen)"
+  },
+  {
+   "gun": "2026-06-01",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 3.18,
+   "wti_pct": 5.49,
+   "tutarsiz": false,
+   "hareket_pct": 4.33,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "Iran gorusmeleri dondurdu; Israil Lubnan'da saldirilari artirdi"
+  },
+  {
+   "gun": "2026-06-04",
+   "haftanin_gunu": "Thu",
+   "brent_pct": -2.84,
+   "wti_pct": -3.1,
+   "tutarsiz": false,
+   "hareket_pct": -2.97,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Israil-Lubnan ateskesi; Trump'in savasi yeniden baslatmak istemedigi raporu"
+  },
+  {
+   "gun": "2026-06-09",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -2.97,
+   "wti_pct": -3.4,
+   "tutarsiz": false,
+   "hareket_pct": -3.19,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "TOPARLANMA"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran ve Israil saldirilari durdurdu; Enerji Bakani: Hurmuz trafigi artiyor"
+  },
+  {
+   "gun": "2026-06-12",
+   "haftanin_gunu": "Fri",
+   "brent_pct": -3.37,
+   "wti_pct": -3.23,
+   "tutarsiz": false,
+   "hareket_pct": -3.3,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump anlasmanin yakin oldugunu soyledi"
+  },
+  {
+   "gun": "2026-06-15",
+   "haftanin_gunu": "Mon",
+   "brent_pct": -4.76,
+   "wti_pct": -4.87,
+   "tutarsiz": false,
+   "hareket_pct": -4.81,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "Trump: anlasma imzalandi; gecici ABD-Iran anlasmasi"
+  },
+  {
+   "gun": "2026-06-16",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -5.06,
+   "wti_pct": -5.82,
+   "tutarsiz": false,
+   "hareket_pct": -5.44,
+   "kategori": "TOPARLANMA",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Anlasma sonrasi Hurmuz akisinin toparlanacagi beklentisi (2. gun devam)"
+  },
+  {
+   "gun": "2026-06-24",
+   "haftanin_gunu": "Wed",
+   "brent_pct": -4.33,
+   "wti_pct": -3.92,
+   "tutarsiz": false,
+   "hareket_pct": -4.12,
+   "kategori": "TOPARLANMA",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Tankerler Hurmuz'den geciyor; Trump 'gecis ucreti olmayacak'"
+  },
+  {
+   "gun": "2026-06-26",
+   "haftanin_gunu": "Fri",
+   "brent_pct": -4.34,
+   "wti_pct": -3.74,
+   "tutarsiz": false,
+   "hareket_pct": -4.04,
+   "kategori": "TOPARLANMA",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Suudi Ras Tanura 4 ay sonra yuklemeye basladi"
+  },
+  {
+   "gun": "2026-07-07",
+   "haftanin_gunu": "Tue",
+   "brent_pct": 3.01,
+   "wti_pct": 2.76,
+   "tutarsiz": false,
+   "hareket_pct": 2.88,
+   "kategori": "SEVKIYAT",
+   "ikincil": [
+    "LIDER_TEHDIT",
+    "DIPLOMASI_CIKMAZ"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Hurmuz'de Suudi/Katar tankerleri vuruldu; Trump anlasmanin 'bittigini' soyledi"
+  },
+  {
+   "gun": "2026-07-08",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 5.2,
+   "wti_pct": 4.37,
+   "tutarsiz": false,
+   "hareket_pct": 4.79,
+   "kategori": "SAVAS",
+   "ikincil": [
+    "DIPLOMASI_CIKMAZ"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Trump: ateskes 'bitti'; ABD Iran'i vurdu, Iran 3 Korfez ulkesine ates acti"
+  },
+  {
+   "gun": "2026-07-13",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 9.59,
+   "wti_pct": 9.42,
+   "tutarsiz": false,
+   "hareket_pct": 9.5,
+   "kategori": "SEVKIYAT",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "ABD tum Iran kiyisina abluka karari; karsilikli saldirilar"
+  },
+  {
+   "gun": "2026-07-17",
+   "haftanin_gunu": "Fri",
+   "brent_pct": 4.59,
+   "wti_pct": 4.48,
+   "tutarsiz": false,
+   "hareket_pct": 4.54,
+   "kategori": "ALTYAPI",
+   "ikincil": [
+    "SEVKIYAT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran Kuveyt'te enerji/tuzdan arindirma tesisini vurdu; Kizildeniz kapatma tehdidi"
+  },
+  {
+   "gun": "2026-07-22",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 3.36,
+   "wti_pct": 2.26,
+   "tutarsiz": false,
+   "hareket_pct": 2.81,
+   "kategori": "SEVKIYAT",
+   "ikincil": [
+    "DIPLOMASI_CIKMAZ"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Husiler Kizildeniz'de Suudi tankerlerini hedef aldi; Rubio 'Iran ciddi degil'"
+  },
+  {
+   "gun": "2026-07-23",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 7.04,
+   "wti_pct": 6.17,
+   "tutarsiz": false,
+   "hareket_pct": 6.61,
+   "kategori": "SEVKIYAT",
+   "ikincil": [
+    "SAVAS"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Husiler Suudi tankerlerini vurdu (Kizildeniz ablukasi); Trump cezalandirma yemini"
+  },
+  {
+   "gun": "2026-07-24",
+   "haftanin_gunu": "Fri",
+   "brent_pct": -3.88,
+   "wti_pct": -3.12,
+   "tutarsiz": false,
+   "hareket_pct": -3.5,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "TOPARLANMA"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Pakistan/Cin'in yeni gorusme icin bastirdigi raporu"
+  },
+  {
+   "gun": "2026-07-27",
+   "haftanin_gunu": "Mon",
+   "brent_pct": -8.7,
+   "wti_pct": -7.5,
+   "tutarsiz": false,
+   "hareket_pct": -8.1,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": true,
+   "surucu": "ABD ve Iran saldirilari diplomasi icin durdurdu (Cizan yanginina ragmen)"
+  },
+  {
+   "gun": "2026-07-28",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -4.83,
+   "wti_pct": -4.06,
+   "tutarsiz": false,
+   "hareket_pct": -4.45,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Saldirisiz gunler suruyor (Cizan rafinerisi kapandi, etkisiz)"
+  },
+  {
+   "gun": "2026-07-29",
+   "haftanin_gunu": "Wed",
+   "brent_pct": 7.91,
+   "wti_pct": 6.56,
+   "tutarsiz": false,
+   "hareket_pct": 7.23,
+   "kategori": "SAVAS",
+   "ikincil": [
+    "SEVKIYAT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Ara bozuldu: Iran ABD guclerine saldirdi, ABD-Suudi Irak'ta saldiri, Husi tanker saldirisi"
+  },
+  {
+   "gun": "2026-08-03",
+   "haftanin_gunu": "Mon",
+   "brent_pct": -7.05,
+   "wti_pct": -5.11,
+   "tutarsiz": false,
+   "hareket_pct": -6.08,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [
+    "LIDER_IYIMSER"
+   ],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "Trump saldirilari durdurdu, gorusmelerin basladigini soyledi (Iran yalanladi)"
+  },
+  {
+   "gun": "2026-08-04",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -5.26,
+   "wti_pct": -5.69,
+   "tutarsiz": false,
+   "hareket_pct": -5.47,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": false,
+   "surucu": "Bessent: Hurmuz anlasmasi gunler icinde; Axios: duyuru hedefleniyor"
+  },
+  {
+   "gun": "2026-08-06",
+   "haftanin_gunu": "Thu",
+   "brent_pct": 3.83,
+   "wti_pct": 2.75,
+   "tutarsiz": false,
+   "hareket_pct": 3.29,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": false,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "Iran Hurmuz icin kisitlayici taslak plan / ABD-Israil gemilerine yasak tasarisi"
+  },
+  {
+   "gun": "2026-08-10",
+   "haftanin_gunu": "Mon",
+   "brent_pct": 4.99,
+   "wti_pct": 5.05,
+   "tutarsiz": false,
+   "hareket_pct": 5.02,
+   "kategori": "DIPLOMASI_CIKMAZ",
+   "ikincil": [
+    "LIDER_TEHDIT"
+   ],
+   "haber_yonu": 1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "gelisme",
+   "hafta_sonu_haberi": true,
+   "surucu": "Hurmuz anlasmasi umudu sondu; Iran acilisi ABD tavizine bagladi"
+  },
+  {
+   "gun": "2026-08-25",
+   "haftanin_gunu": "Tue",
+   "brent_pct": -3.89,
+   "wti_pct": -3.12,
+   "tutarsiz": false,
+   "hareket_pct": -3.5,
+   "kategori": "DIPLOMASI_ILERI",
+   "ikincil": [],
+   "haber_yonu": -1,
+   "yon_tutarli": true,
+   "lider_beyani": true,
+   "yenilik": "ilk",
+   "hafta_sonu_haberi": false,
+   "surucu": "ABD saldiri yerine yaptirima gecti (gerilim azalmasi olarak okundu); Iran-Umman Hurmuz uzlasisi"
+  }
+ ],
+ "sessiz": [
+  {
+   "gun": "2026-02-06",
+   "brent_pct": 0.74,
+   "wti_pct": 0.41,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Gorusmelerin devami + gerilim"
+  },
+  {
+   "gun": "2026-02-23",
+   "brent_pct": -0.38,
+   "wti_pct": -0.12,
+   "nedenler": [
+    "BEKLEME"
+   ],
+   "aciklama": "Gorusmeler oncesi bekleme"
+  },
+  {
+   "gun": "2026-02-25",
+   "brent_pct": 0.11,
+   "wti_pct": -0.32,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Suudi uretim/ihracat artisi + gerilim; ABD stok artisi"
+  },
+  {
+   "gun": "2026-02-26",
+   "brent_pct": -0.14,
+   "wti_pct": -0.32,
+   "nedenler": [
+    "BEKLEME",
+    "DENGELEYICI"
+   ],
+   "aciklama": "Gorusmeler 'onemli ilerleme' ile bitti ama tepki kucuk"
+  },
+  {
+   "gun": "2026-03-04",
+   "brent_pct": 0.0,
+   "wti_pct": 0.13,
+   "nedenler": [
+    "FIYATLANMIS",
+    "DENGELEYICI"
+   ],
+   "aciklama": "Hurmuz kapali ama 2 gunde +%12 olmus; Bessent tanker destegi"
+  },
+  {
+   "gun": "2026-04-06",
+   "brent_pct": 0.68,
+   "wti_pct": 0.78,
+   "nedenler": [
+    "GUN_ICI_SONUM",
+    "TEKRAR"
+   ],
+   "aciklama": "Trump'in kufurlu tehdidiyle acilista 113-115$; kapanista sondu"
+  },
+  {
+   "gun": "2026-05-19",
+   "brent_pct": -0.73,
+   "wti_pct": -0.82,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Trump saldiriyi erteledi + 'bir buyuk darbe daha' + Vance ilerleme"
+  },
+  {
+   "gun": "2026-05-22",
+   "brent_pct": 0.94,
+   "wti_pct": 0.26,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Gorusmelere suphe; kucuk yukselis"
+  },
+  {
+   "gun": "2026-05-28",
+   "brent_pct": -0.62,
+   "wti_pct": 0.25,
+   "nedenler": [
+    "DENGELEYICI",
+    "GUN_ICI_SONUM"
+   ],
+   "aciklama": "ABD saldirisi ve Iran'in ussu vurmasi + ateskes uzatma raporu"
+  },
+  {
+   "gun": "2026-06-17",
+   "brent_pct": 0.75,
+   "wti_pct": 0.97,
+   "nedenler": [
+    "FIYATLANMIS",
+    "DENGELEYICI"
+   ],
+   "aciklama": "Anlasma metni; 2 gunde -%10 sonrasi; Hurmuz'den 12m varil + yeniden saldiri riski"
+  },
+  {
+   "gun": "2026-07-02",
+   "brent_pct": 0.32,
+   "wti_pct": 0.16,
+   "nedenler": [
+    "FIYATLANMIS"
+   ],
+   "aciklama": "Suudi ihracati savas oncesine yakin; fiyat zaten savas oncesi seviyede"
+  },
+  {
+   "gun": "2026-07-06",
+   "brent_pct": 0.26,
+   "wti_pct": -0.2,
+   "nedenler": [
+    "DENGELEYICI",
+    "GUN_ICI_SONUM"
+   ],
+   "aciklama": "Suudi rekor fiyat indirimi + gemi saldirilari (+%5 gun ici)"
+  },
+  {
+   "gun": "2026-07-15",
+   "brent_pct": 0.26,
+   "wti_pct": 0.33,
+   "nedenler": [
+    "FIYATLANMIS"
+   ],
+   "aciklama": "Iran'in ihracati engelleme tehdidi; buyuk ralli sonrasi"
+  },
+  {
+   "gun": "2026-07-16",
+   "brent_pct": -0.85,
+   "wti_pct": -0.82,
+   "nedenler": [
+    "GECIKMELI"
+   ],
+   "aciklama": "Kuveyt tesis saldirisi; tepki ertesi gun (+%4.5)"
+  },
+  {
+   "gun": "2026-08-05",
+   "brent_pct": 0.11,
+   "wti_pct": -0.73,
+   "nedenler": [
+    "DENGELEYICI",
+    "TEKRAR"
+   ],
+   "aciklama": "Husi tanker saldirisi iddiasi (rutin) + Iran-Umman gorusme umudu"
+  },
+  {
+   "gun": "2026-08-12",
+   "brent_pct": 0.08,
+   "wti_pct": 0.08,
+   "nedenler": [
+    "KARSI_VERI",
+    "TEKRAR"
+   ],
+   "aciklama": "Kizildeniz/Umman gemi saldirilari + ABD: Hurmuz'den 9 mb/g, stoklar artti"
+  },
+  {
+   "gun": "2026-08-18",
+   "brent_pct": 0.17,
+   "wti_pct": 0.52,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Hurmuz'de kargo gemisi saldirisi + Suudi Hurmuz sevkiyatina dondu"
+  },
+  {
+   "gun": "2026-08-21",
+   "brent_pct": 0.65,
+   "wti_pct": -0.88,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Trump Iran ortaklarina yaptirim tehdidi + Iran cumhurbaskani 'savas bitsin'"
+  },
+  {
+   "gun": "2026-08-26",
+   "brent_pct": -0.84,
+   "wti_pct": -0.16,
+   "nedenler": [
+    "DENGELEYICI"
+   ],
+   "aciklama": "Beyaz Saray 'gorusme yok' + Iran-Umman Hurmuz adimi"
+  },
+  {
+   "gun": "2026-08-28",
+   "brent_pct": -0.43,
+   "wti_pct": -0.16,
+   "nedenler": [
+    "FIYATLANMIS"
+   ],
+   "aciklama": "Hurmuz mayinlari temizlendi, Trump 'Hurmuz acik' (kucuk tepki)"
+  }
+ ]
+}

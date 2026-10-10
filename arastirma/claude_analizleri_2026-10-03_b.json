@@ -1,0 +1,18 @@
+{
+  "model": "claude-opus-5-5 (oturum)",
+  "analiz_zamani": "2026-10-03T12:16:00Z",
+  "not": "Ikinci tur: ilk aktarimdan sonra gelen haberler.",
+  "merges": [],
+  "drop_analysis": [
+    {"event_id": 273, "neden": "Gorus yazisi (uzman uyarisi); yeni olay/bilgi icermiyor.", "irrelevant": true},
+    {"event_id": 272, "neden": "Dosya/feature haber; yeni olay icermiyor.", "irrelevant": true}
+  ],
+  "analyses": [
+    {"event_id": 267, "independent_sources": 1,
+     "etki_kanali": "arz", "olay_turu": "arz_artisi", "yon": "asagi", "buyukluk": "dusuk", "sure": "haftalar",
+     "kesinlik": "dogrulanmis", "yenilik": "gelisme", "lider_beyani": false, "baglam_destegi": "guclu", "ilgili_olaylar": [],
+     "guven": 35,
+     "gerekce": "Hindistan'ın Eylül'de Körfez'den petrol ithalatının artması, Hürmüz riskine rağmen Körfez arzının alıcılara ulaştığını gösteriyor; bu arz tarafında rahatlama, yani hafif aşağı yönlü. Ancak Körfez ihracatındaki toparlanma 29 Eylül'den beri biliniyor (Suudi ihracatı savaşın en yüksek seviyesinde), bu yüzden fiyata büyük ölçüde yansımış durumda. Groq'un 'yukarı' yorumu yanlış: artan ithalat burada talep şoku değil, arzın yeniden akması.",
+     "anahtar_aktorler": ["Hindistan", "Körfez üreticileri", "Suudi Arabistan"]}
+  ]
+}

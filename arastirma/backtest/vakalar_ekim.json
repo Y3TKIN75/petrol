@@ -1,0 +1,289 @@
+{
+ "aciklama": "Ekim 2026 bagimsiz test seti: model v2.1 istem degisikliklerinden SONRA, hicbir model calistirilmadan ONCE etiketlendi. Basliklar arastirma/veri/haberler_ekim.json arsivinden birebir; fiyat basliklari vaka olarak kullanilmadi. strength Eylul setiyle ayni tanim: atfedilebilen tepki strong >= %3, medium %1.5-3, weak < %1.5. etiket_guveni 'belirsiz' = atif tartismali ya da ayni pencerede baska olay var. Fiyat kaniti: arastirma/veri/ekim_15m_bz_cl.csv.",
+ "etiketlendi": "2026-10-10T08:12:43+00:00",
+ "kaynaklar": {
+  "archive": "arastirma/veri/haberler_ekim.json",
+  "prices": "arastirma/veri/gunluk_bz_cl_ekim.csv",
+  "baseline": "arastirma/backtest/dunya_durumu_2026-10-03.md"
+ },
+ "cases": [
+  {
+   "id": "E1",
+   "split": "ekim",
+   "now": "2026-10-04T05:40:00Z",
+   "market_open": false,
+   "expected": "yukari",
+   "strength": "weak",
+   "etiket_guveni": "net",
+   "observed": "Pazar acilisinda (4 Eki 22:00) Brent +%0.6, ancak bu Husi iddiasina atfedildi; bu soze ayri tepki gorulmedi. Ayni sozler 3 Ekim'de de aktarilmisti (tekrar).",
+   "headlines": [
+    {
+     "title": "‘We’ll have it the easy way or the hard way,’ Trump signals decision coming on Iran",
+     "publisher": "Al Arabiya English"
+    }
+   ]
+  },
+  {
+   "id": "E2",
+   "split": "ekim",
+   "now": "2026-10-04T08:00:00Z",
+   "market_open": false,
+   "expected": "yukari",
+   "strength": "weak",
+   "etiket_guveni": "net",
+   "observed": "Pazar acilisi Brent +%0.6 (102.25 -> 102.86; 'Brent up 0.79% after Houthis claim Aramco attacks'), 3 saat icinde Suudi fiyat indirimiyle silindi. Koalisyon iddiayi 'yaniltici' diye reddetti.",
+   "headlines": [
+    {
+     "title": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones",
+     "publisher": "Reuters"
+    },
+    {
+     "title": "Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack",
+     "publisher": "Al Jazeera"
+    }
+   ]
+  },
+  {
+   "id": "E3",
+   "split": "ekim",
+   "now": "2026-10-04T23:50:00Z",
+   "market_open": true,
+   "expected": "asagi",
+   "strength": "medium",
+   "etiket_guveni": "net",
+   "observed": "Acilistan (102.86) 5 Eki 03:45'e (101.35) Brent -%1.5; Bloomberg: 'Oil Swings to Loss as Deep Saudi Price Cut Offsets Yemen Concern'. Ayni pencerede G7 salimi ve ihracat toparlanmasi da var.",
+   "headlines": [
+    {
+     "title": "Saudi Arabia unexpectedly cuts November oil prices to Asia to 6-year lows",
+     "publisher": "Reuters"
+    }
+   ]
+  },
+  {
+   "id": "E4",
+   "split": "ekim",
+   "now": "2026-10-05T01:20:00Z",
+   "market_open": true,
+   "expected": "asagi",
+   "strength": "medium",
+   "etiket_guveni": "belirsiz",
+   "observed": "5 Eki gunluk Brent -%1.9; CNBC 'Oil prices fall as Middle East crude exports rise, G7 to release stocks'. Ihracatin toparlandigi 3 Ekim dunya durumunda zaten var; E3 ile ayni pencere, pay ayrisamiyor.",
+   "headlines": [
+    {
+     "title": "Middle East oil exports top pre-war levels for part of September but tanker attacks increase",
+     "publisher": "Reuters"
+    }
+   ]
+  },
+  {
+   "id": "E5",
+   "split": "ekim",
+   "now": "2026-10-06T04:35:00Z",
+   "market_open": true,
+   "expected": "notr",
+   "strength": "weak",
+   "etiket_guveni": "net",
+   "observed": "Petrol icerigi olmayan soylem. 6 Eki sabahki dusus Korfez akislari / Yemen haberlerine atfedildi; bu soze atif yok.",
+   "headlines": [
+    {
+     "title": "Trump suggests allowing Iran to \"take out\" LA and San Diego during campaign rally",
+     "publisher": "CBS News"
+    }
+   ]
+  },
+  {
+   "id": "E6",
+   "split": "ekim",
+   "now": "2026-10-06T08:55:00Z",
+   "market_open": true,
+   "expected": "asagi",
+   "strength": "medium",
+   "etiket_guveni": "net",
+   "observed": "6 Eki 04:45-12:45 Brent -%3.4 (kademeli); Bloomberg: 'Yemen Says It Retook Mocha Port as Hormuz Oil Transits Rise and Saudi Pipeline Runs Normally'. Hurmuz gecisleri de ayni anda; tek basina pay ~yarisi.",
+   "headlines": [
+    {
+     "title": "Yemen forces reclaim key Red Sea port city from Iran-backed Houthis in major counteroffensive",
+     "publisher": "CNBC"
+    }
+   ]
+  },
+  {
+   "id": "E7",
+   "split": "ekim",
+   "now": "2026-10-06T14:20:00Z",
+   "market_open": true,
+   "expected": "yukari",
+   "strength": "medium",
+   "etiket_guveni": "belirsiz",
+   "observed": "6 Eki 14:30 -> 16:15 Brent +%1.8, kapanisa kadar +%2.9; investingLive 'Crude oil rebounds as Hormuz tensions rise'. Basliklar analiz niteliginde; tetikleyici somut olay belirsiz.",
+   "headlines": [
+    {
+     "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+     "publisher": "CNBC"
+    },
+    {
+     "title": "Hormuz ship attacks surge: Are increased oil exports sustainable?",
+     "publisher": "Al Jazeera"
+    }
+   ]
+  },
+  {
+   "id": "E8",
+   "split": "ekim",
+   "now": "2026-10-06T17:20:00Z",
+   "market_open": true,
+   "expected": "asagi",
+   "strength": "weak",
+   "etiket_guveni": "net",
+   "observed": "Sonrasinda fiyat yukseldi (17:45 100.53 -> 20:45 101.15). 7 Eki karar haberleri 'settle down' (Reuters); 7 Eki gunluk -%0.4. Kriz doneminde rezerv haberi zayif.",
+   "headlines": [
+    {
+     "title": "IEA to Meet Wednesday to Discuss Diesel, Crude Stocks Release",
+     "publisher": "Bloomberg.com"
+    }
+   ]
+  },
+  {
+   "id": "E9",
+   "split": "ekim",
+   "now": "2026-10-07T14:30:00Z",
+   "market_open": true,
+   "expected": "yukari",
+   "strength": "medium",
+   "etiket_guveni": "belirsiz",
+   "observed": "Hemen sonra fiyat dustu (14:45 101.70 -> 17:45 100.01, EIA talep tahmini/IEA); ertesi gunku +%4'te 'Iran steps up tanker attacks' (CNBC) baslica neden sayildi. Gecikmeli ve paylasilan tepki.",
+   "headlines": [
+    {
+     "title": "Attacks on tankers in Hormuz hit highest of any week since start of Iran war, sources say",
+     "publisher": "Reuters"
+    }
+   ]
+  },
+  {
+   "id": "E10",
+   "split": "ekim",
+   "now": "2026-10-08T00:05:00Z",
+   "market_open": true,
+   "expected": "yukari",
+   "strength": "weak",
+   "etiket_guveni": "belirsiz",
+   "observed": "Havalimani saldirisi, petrol tesisi degil. 8 Eki yukselisine yalnizca Semafor atif yapti ('second day of Houthi strikes on Riyadh'); ana akim atiflar tanker saldirilari, kasirga ve ABD saldiri hazirligi.",
+   "headlines": [
+    {
+     "title": "Three killed, 36 injured in Houthi attacks on Saudi airports, Riyadh says",
+     "publisher": "Al Jazeera"
+    }
+   ]
+  },
+  {
+   "id": "E11",
+   "split": "ekim",
+   "now": "2026-10-08T03:20:00Z",
+   "market_open": true,
+   "expected": "yukari",
+   "strength": "strong",
+   "etiket_guveni": "net",
+   "observed": "8 Eki gunluk Brent +%4.1 (7 Eki kapanis 100.20 -> 104.28; Asya seansinda +%3). Atif: 'Oil tops $105 as Trump weighs return to Iran combat operations', 'Brent Gains More Than 4% on U.S.-Iran Tensions, Hurricane Isaias' (WSJ). Tanker saldirilari ve kasirga ile paylasiliyor.",
+   "headlines": [
+    {
+     "title": "U.S. military prepares new Iran war options ahead of midterm elections",
+     "publisher": "NBC News"
+    },
+    {
+     "title": "Trump says he doesn't want Iran deal as U.S. reportedly prepares for 'massive bombing'",
+     "publisher": "CNBC"
+    }
+   ]
+  },
+  {
+   "id": "E12",
+   "split": "ekim",
+   "now": "2026-10-08T16:25:00Z",
+   "market_open": true,
+   "expected": "asagi",
+   "strength": "medium",
+   "etiket_guveni": "net",
+   "observed": "16:15-16:30 cubugunda Brent -%1.5 (105.41 -> 103.79), saatte -%2.1, WTI -%1.8; 'Oil falls to $103 as Trump says US will not attack Iran before the midterm elections'. Kismen geri alindi (WSJ 'Oil Finishes Higher Despite Trump Truth Social Post').",
+   "headlines": [
+    {
+     "title": "Trump says US will not attack Iran before midterm elections in November",
+     "publisher": "Reuters"
+    },
+    {
+     "title": "Trump says U.S. will not attack Iran before midterm election",
+     "publisher": "CNBC"
+    }
+   ]
+  },
+  {
+   "id": "E13",
+   "split": "ekim",
+   "now": "2026-10-09T13:20:00Z",
+   "market_open": true,
+   "expected": "yukari",
+   "strength": "medium",
+   "etiket_guveni": "net",
+   "observed": "13:15 -> 15:00 Brent +%1.7 (103.30 -> 105.01); Barchart 'Crude Prices Climb on Hormuz Attacks and Hurricane Isaias'; Reuters 'Oil prices settle higher as more production shut ahead of hurricane'. Kasirga 8 Eki aksamindan beri biliniyor (gelisme).",
+   "headlines": [
+    {
+     "title": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
+     "publisher": "CNBC"
+    }
+   ]
+  },
+  {
+   "id": "E14",
+   "split": "ekim",
+   "now": "2026-10-09T19:25:00Z",
+   "market_open": true,
+   "expected": "asagi",
+   "strength": "weak",
+   "etiket_guveni": "net",
+   "observed": "18:45 cubugunda -%0.9, sonraki saat +%0.5, gun +%0.4 kapandi; FXStreet 'Crude Oil drops on Trump's Russian diesel plan'. Kisa ve kucuk tepki.",
+   "headlines": [
+    {
+     "title": "Trump eases Russia sanctions, says Putin will release diesel amid massive price spikes",
+     "publisher": "NBC News"
+    }
+   ]
+  }
+ ],
+ "controls": [
+  {
+   "title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
+   "publisher": "The Guardian",
+   "date": "2026-10-08",
+   "expect": "price_report"
+  },
+  {
+   "title": "Oil falls to $103 as Trump says US will not attack Iran before the midterm elections",
+   "publisher": "Yahoo Finance",
+   "date": "2026-10-08",
+   "expect": "price_report"
+  },
+  {
+   "title": "Connecticut firewood sellers see spike in orders as home heating oil prices soar",
+   "publisher": "WTNH.com",
+   "date": "2026-10-08",
+   "expect": "irrelevant"
+  },
+  {
+   "title": "Petronas Boosts Malaysia Dividends Further as Oil Prices Surge",
+   "publisher": "Bloomberg.com",
+   "date": "2026-10-09",
+   "expect": "irrelevant"
+  },
+  {
+   "title": "3 Energy Stocks Gaining Interest As Oil Prices Jump",
+   "publisher": "Simply Wall Street",
+   "date": "2026-10-09",
+   "expect": "irrelevant_or_price"
+  },
+  {
+   "title": "Ohio gas prices jump 10 cents amid hurricane fears",
+   "publisher": "WDTN.com",
+   "date": "2026-10-09",
+   "expect": "irrelevant"
+  }
+ ]
+}

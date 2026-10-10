@@ -1,0 +1,130 @@
+{
+  "aciklama": "Geriye donuk test vakalari. Basliklar arastirma/veri/haberler.json arsivinden birebir alindi; fiyat hareketini anlatan basliklar sizinti yaratacagi icin kullanilmadi. 'derived': true olanlarda olay yalnizca fiyat basligi icinde gectigi icin fiyat kismi cikarildi (source_title orijinal). 'strength': gozlenen tepkinin buyuklugu (strong >= %3, medium %1.5-3, weak < %1.5). split: kalibrasyon = 31 Agu - 17 Eyl, test = 18 Eyl - 2 Eki.",
+  "cases": [
+    {"id": "C1", "split": "kalibrasyon", "now": "2026-08-31T12:00:00Z", "market_open": true, "expected": "yukari", "strength": "medium",
+     "observed": "Vadeli +%1.3 gunluk; Reuters kapanis +%2.5; WTI spot +%2.9",
+     "headlines": [
+       {"title": "US hits Iranian sites in the Strait of Hormuz", "publisher": "AP News", "derived": true,
+        "source_title": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz - AP News"},
+       {"title": "New US-Iran strikes threaten Hormuz oil recovery", "publisher": "TVP World"}
+     ]},
+    {"id": "C2", "split": "kalibrasyon", "now": "2026-09-01T12:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Vadeli +%4.6, spot +%7.0",
+     "headlines": [
+       {"title": "Two tankers carrying Saudi oil attacked in Strait of Hormuz", "publisher": "Reuters"},
+       {"title": "U.S. strikes Iran tankers under new \"tanker for tanker\" policy", "publisher": "axios.com"}
+     ]},
+    {"id": "C3", "split": "kalibrasyon", "now": "2026-09-09T12:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Vadeli +%3.4, spot +%3.2",
+     "headlines": [
+       {"title": "Houthi attacks in Saudi Arabia disrupt energy facilities, wound dozens", "publisher": "jpost.com"},
+       {"title": "Scores wounded as Iran-backed Houthis attack Saudi Arabia in major regional escalation", "publisher": "WKOW"}
+     ]},
+    {"id": "C5", "split": "kalibrasyon", "now": "2026-09-10T12:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Vadeli +%6.3, spot +%10.5 (ayni gun tanker saldirilari da var)",
+     "headlines": [
+       {"title": "Iran-backed Houthis capture Red Sea port, putting more pressure on oil markets", "publisher": "PBS"},
+       {"title": "Houthi rebels take key Red Sea city in Yemen, as Iran’s wartime leverage grows", "publisher": "The Washington Post"}
+     ]},
+    {"id": "C7", "split": "kalibrasyon", "now": "2026-09-10T14:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Ayni gun vadeli +%6.3 (diger haberlerle birlikte)",
+     "headlines": [
+       {"title": "Trump says he's not looking for deal with Iran", "publisher": "upi.com", "derived": true,
+        "source_title": "Oil prices surge after Trump says he's not looking for deal with Iran - upi.com"}
+     ]},
+    {"id": "C8", "split": "kalibrasyon", "now": "2026-09-12T12:00:00Z", "market_open": false, "expected": "yukari", "strength": "strong",
+     "observed": "Pazar aksami acilista +%3.5 (Brent ve WTI); 15 Eylul spot +%7.9",
+     "headlines": [
+       {"title": "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq", "publisher": "CNBC"},
+       {"title": "Saudis Shut Down Crucial Pipeline After Drone Attack From Iraq", "publisher": "The New York Times"},
+       {"title": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq", "publisher": "Al Jazeera"}
+     ]},
+    {"id": "C9", "split": "kalibrasyon", "now": "2026-09-15T10:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Vadeli +%2.9, spot +%7.9",
+     "headlines": [
+       {"title": "Saudi cancels some oil cargoes after pipeline hit, top buyer chasing alternatives", "publisher": "Reuters"},
+       {"title": "Saudi Oil Crisis Deepens as Aramco Suspends Yanbu Loadings", "publisher": "Yahoo Finance"}
+     ]},
+    {"id": "C10", "split": "kalibrasyon", "now": "2026-09-15T20:00:00Z", "market_open": true, "expected": "asagi", "strength": "medium",
+     "observed": "16 Eylul vadeli -%2.7 (gun ici -%4)",
+     "headlines": [
+       {"title": "US energy chief says Saudi Arabia oil pipeline should be back online within days", "publisher": "Reuters"},
+       {"title": "Saudi pipeline closure is a brief interruption that will last days, U.S. Energy secretary tells CNBC", "publisher": "CNBC"}
+     ]},
+
+    {"id": "H1", "split": "test", "now": "2026-09-18T07:15:00Z", "market_open": true, "expected": "asagi", "strength": "strong",
+     "observed": "07:30 UTC Brent -%4.0, WTI -%4.5 (15 dk)",
+     "headlines": [
+       {"title": "China asks Iran to limit Houthi attacks on Saudi oil facilities", "publisher": "Reuters", "derived": true,
+        "source_title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters"}
+     ]},
+    {"id": "H3", "split": "test", "now": "2026-09-21T12:00:00Z", "market_open": true, "expected": "asagi", "strength": "strong",
+     "observed": "Vadeli -%3.4, WTI spot -%4.4",
+     "headlines": [
+       {"title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure", "publisher": "CNBC"}
+     ]},
+    {"id": "H4", "split": "test", "now": "2026-09-23T12:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Vadeli +%3.9",
+     "headlines": [
+       {"title": "Iran's president vows to never surrender", "publisher": "Reuters", "derived": true,
+        "source_title": "Oil settles up around 4% as Iran's president vows to never surrender - Reuters"}
+     ]},
+    {"id": "H5", "split": "test", "now": "2026-09-24T10:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "Vadeli +%3.4",
+     "headlines": [
+       {"title": "Houthis say they attacked Riyadh and Aramco facilities in Yanbu", "publisher": "Reuters"},
+       {"title": "Yemen's Houthis claim to have launched missiles, drones at Riyadh, Aramco facilities in Yanbu", "publisher": "jpost.com"},
+       {"title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis", "publisher": "Al Jazeera"}
+     ]},
+    {"id": "H6", "split": "test", "now": "2026-09-24T16:00:00Z", "market_open": true, "expected": "asagi", "strength": "medium",
+     "observed": "16:15 UTC Brent -%2.5, WTI -%2.3 (15 dk)",
+     "headlines": [
+       {"title": "US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say", "publisher": "Reuters"}
+     ]},
+    {"id": "H8", "split": "test", "now": "2026-09-26T18:00:00Z", "market_open": false, "expected": "yukari", "strength": "strong",
+     "observed": "28 Eylul acilisi +%3-4 (gun ici zirve)",
+     "headlines": [
+       {"title": "Trump rejects Iranian peace proposal, WSJ reports", "publisher": "Reuters"}
+     ]},
+    {"id": "H9", "split": "test", "now": "2026-09-28T16:00:00Z", "market_open": true, "expected": "asagi", "strength": "strong",
+     "observed": "16:15 ve 17:00 UTC iki adimda -%4 (Brent ve WTI) - kullanicinin Aramco ornegi",
+     "headlines": [
+       {"title": "Saudi Arabia’s Crucial Oil Pipeline Starts Exports After Repairs", "publisher": "Bloomberg.com"},
+       {"title": "Saudi Arabia resumes oil exports via East-West pipeline", "publisher": "Al Arabiya English"}
+     ]},
+    {"id": "H11", "split": "test", "now": "2026-09-29T15:00:00Z", "market_open": true, "expected": "asagi", "strength": "weak",
+     "observed": "Ayni gun vadeli -%2.6 ama esas neden Yanbu/ihracat toparlanmasi; SPR etkisi ayristirilamiyor",
+     "headlines": [
+       {"title": "US to Release 40 Million Barrels of Crude From Strategic Petroleum Reserve, Energy Department Says", "publisher": "EnergyNow.com"},
+       {"title": "US to loan up to 40 million barrels of oil from SPR, last batch from global deal", "publisher": "Reuters"}
+     ]},
+    {"id": "H12", "split": "test", "now": "2026-10-01T17:00:00Z", "market_open": true, "expected": "yukari", "strength": "strong",
+     "observed": "CNBC: Brent +%4; 17:45 UTC WTI +%1.7 (15 dk)",
+     "headlines": [
+       {"title": "U.S. to send third carrier group to Mideast as Trump warns of new Iran strikes", "publisher": "CNBC"}
+     ]},
+    {"id": "H13", "split": "test", "now": "2026-10-01T10:00:00Z", "market_open": true, "expected": "yukari", "strength": "medium",
+     "observed": "Basliklara gore +%2-3",
+     "headlines": [
+       {"title": "China Halts October Fuel Exports as Global Diesel Crunch Deepens", "publisher": "Crude Oil Prices Today | OilPrice.com"}
+     ]},
+    {"id": "H14", "split": "test", "now": "2026-10-02T12:00:00Z", "market_open": true, "expected": "asagi", "strength": "medium",
+     "observed": "WTI gun ici -%4; Brent kapanis ~%0",
+     "headlines": [
+       {"title": "G7 countries agree on release of diesel and oil stocks after US pressure", "publisher": "Reuters"},
+       {"title": "G7 nations agree to release 100 million barrels of oil, including diesel", "publisher": "PBS"}
+     ]}
+  ],
+  "controls": [
+    {"title": "Tesla Jumps 4% as Oil Climbs to $86: Is the Gas-Price Trade Back?", "publisher": "24/7 Wall St.", "date": "2026-08-31", "expect": "irrelevant_or_price"},
+    {"title": "Autonomous trucks in Saudi Arabia: HUMAIN", "publisher": "Applied Intuition", "date": "2026-08-31", "expect": "irrelevant"},
+    {"title": "Saudi Arabia Returns to Markets With Dollar-Bond Offering", "publisher": "Bloomberg.com", "date": "2026-09-01", "expect": "irrelevant"},
+    {"title": "Chicago drivers seek to find cheapest gas prices at stations as costs rising ahead of Labor Day 2026 amid US-Iran war", "publisher": "ABC7 Chicago", "date": "2026-09-01", "expect": "irrelevant"},
+    {"title": "Heating oil costs surge, leaving rural customers scrambling", "publisher": "WILX", "date": "2026-09-25", "expect": "irrelevant"},
+    {"title": "Athletics' Brent Rooker: Starts up hitting progression", "publisher": "CBS Sports", "date": "2026-09-16", "expect": "irrelevant"},
+    {"title": "Is the U.S.-Saudi Nuclear Deal Moving From the Gold Standard to a Gilded Standard?", "publisher": "Carnegie Endowment for International Peace", "date": "2026-09-09", "expect": "irrelevant"},
+    {"title": "Jim Cramer talks how higher crude oil prices are impacting the market", "publisher": "CNBC", "date": "2026-09-09", "expect": "irrelevant_or_price"},
+    {"title": "Oil surges 6%, Brent and US crude both surpass $100 on more tanker attacks", "publisher": "Reuters", "date": "2026-09-10", "expect": "price_report"},
+    {"title": "Oil prices fall after G7 agrees to reserve release", "publisher": "CNBC", "date": "2026-10-02", "expect": "price_report"}
+  ]
+}
